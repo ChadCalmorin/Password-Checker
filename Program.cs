@@ -1,7 +1,5 @@
 ﻿using System;
 
-
-
 namespace Password_Checker
 {
     class Program
