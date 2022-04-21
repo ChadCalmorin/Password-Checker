@@ -51,7 +51,6 @@ namespace Password_Checker
 
             switch (score)
             {
-
                 case 1:
                     Console.WriteLine("Your pasword is weak");
                     break;
@@ -75,13 +74,7 @@ namespace Password_Checker
                 default:
                     Console.WriteLine("Password does not meet any of the requierments");
                     break;
-
-
             }
-
-
-
-
 
         }
     }
