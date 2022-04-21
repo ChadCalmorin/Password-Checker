@@ -16,8 +16,6 @@ namespace Password_Checker
             string userPassword;
             int score = 0;
 
-
-
             Console.WriteLine("Please create a new password here: \n");
             userPassword = Console.ReadLine();
 
@@ -27,7 +25,6 @@ namespace Password_Checker
             {
                 score++;
             }
-
 
             if (Tools.Contains(userPassword, uppercase))
             {
